@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Vehicle Inventory | Sephoc Motors Uganda — Cadam Bond, Naguru Kampala</title>
+<meta name="description" content="Browse 353 vehicles at Sephoc Motors Uganda — Toyota, Mercedes-Benz, Land Rover, Lexus, Subaru, Jeep and more. Cadam Bond, Naguru, Kampala. Call +256704113590."/>
+<meta name="keywords" content="cars for sale Uganda, Toyota Land Cruiser Uganda, Mercedes-Benz Uganda, Range Rover Uganda, Sephoc Motors inventory, buy car Kampala"/>
+<meta name="robots" content="index,follow"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;border-radius:4px;">
+        <rect width="36" height="36" fill="#b8945a"/>
+        <text x="18" y="26" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="bold" fill="white">S</text>
+      </svg>
+      <span>Sephoc <span>Motors</span> Uganda</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="inventory.html" class="active">Inventory</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/256704113590?text=Hi%20Sephoc%20Motors%2C%20I%27m%20interested%20in%20a%20vehicle." target="_blank" class="nav-cta">WhatsApp Us</a>
+    <button class="nav-hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="inventory.html">Inventory</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://wa.me/256704113590?text=Hi%20Sephoc%20Motors%2C%20I%27m%20interested%20in%20a%20vehicle." target="_blank">WhatsApp Us</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <h1>Vehicle <span>Inventory</span></h1>
+  <p>353 vehicles available — Toyota, Mercedes-Benz, Land Rover, Lexus, Subaru & more</p>
+  <p style="margin-top:8px;font-size:13px;color:rgba(255,255,255,0.4);">Cadam Bond, Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala &nbsp;|&nbsp; +256 704 113 590</p>
+</div>
+
+<!-- INVENTORY -->
+<section class="section" style="background:var(--white);">
+  <div class="container">
+
+    <!-- Filter -->
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-btn active" onclick="filterCars('all',this)">All Vehicles</button>
+      <button class="filter-btn" onclick="filterCars('suv',this)">SUV / 4x4</button>
+      <button class="filter-btn" onclick="filterCars('sedan',this)">Sedan</button>
+      <button class="filter-btn" onclick="filterCars('pickup',this)">Pickup / Truck</button>
+      <button class="filter-btn" onclick="filterCars('toyota',this)">Toyota</button>
+      <button class="filter-btn" onclick="filterCars('mercedes',this)">Mercedes-Benz</button>
+      <button class="filter-btn" onclick="filterCars('landrover',this)">Land Rover</button>
+      <button class="filter-btn" onclick="filterCars('other',this)">Other Brands</button>
+    </div>
+
+    <div class="cars-grid" id="carsGrid">
+
+      <!-- 1 -->
+      <div class="car-card" data-type="suv" data-brand="landrover">
+        <div class="car-img-placeholder">2016 Range Rover Vogue</div>
+        <div class="car-info">
+          <div class="car-make">Land Rover</div>
+          <div class="car-name">2016 Range Rover Vogue</div>
+          <div class="car-price">USh 168m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">4.4L</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Range%20Rover%20Vogue%20at%20USh%20168m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Range%20Rover%20Vogue" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2018 Toyota Land Cruiser Prado TZG</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2018 Land Cruiser Prado TZG</div>
+          <div class="car-price">USh 168m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">2.8L</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202018%20Toyota%20Land%20Cruiser%20Prado%20TZG%20at%20USh%20168m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202018%20Toyota%20Land%20Cruiser%20Prado%20TZG" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2009 Toyota Land Cruiser ZX V8</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2009 Toyota Land Cruiser ZX V8</div>
+          <div class="car-price">USh 168m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202009%20Toyota%20Land%20Cruiser%20ZX%20V8%20at%20USh%20168m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202009%20Toyota%20Land%20Cruiser%20ZX%20V8" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="car-card" data-type="suv" data-brand="landrover">
+        <div class="car-img-placeholder">2016 Range Rover Sport (Petrol)</div>
+        <div class="car-info">
+          <div class="car-make">Land Rover</div>
+          <div class="car-name">2016 Range Rover Sport</div>
+          <div class="car-price">USh 168m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">3.0L</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Range%20Rover%20Sport%20(Petrol)%20at%20USh%20168m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Range%20Rover%20Sport" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="car-card" data-type="suv" data-brand="landrover">
+        <div class="car-img-placeholder">2016 Range Rover Sport (Diesel)</div>
+        <div class="car-info">
+          <div class="car-make">Land Rover</div>
+          <div class="car-name">2016 Range Rover Sport</div>
+          <div class="car-price">USh 168m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">3.0L</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Range%20Rover%20Sport%20Diesel%20at%20USh%20168m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Range%20Rover%20Sport%20Diesel" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2016 Mercedes-Benz GLE AMG</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2016 Mercedes-Benz GLE AMG</div>
+          <div class="car-price">USh 168m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">3.0L</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Mercedes-Benz%20GLE%20AMG%20at%20USh%20168m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Mercedes-Benz%20GLE%20AMG" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2017 Toyota Land Cruiser Prado TZG</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2017 Land Cruiser Prado TZG</div>
+          <div class="car-price">USh 168m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">86,522 km</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Toyota%20Land%20Cruiser%20Prado%20TZG%20at%20USh%20168m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Toyota%20Land%20Cruiser%20Prado%20TZG" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2016 Toyota Land Cruiser Prado TX</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2016 Land Cruiser Prado TX</div>
+          <div class="car-price">USh 170m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">2.8L</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Toyota%20Land%20Cruiser%20Prado%20TX%20at%20USh%20170m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Toyota%20Land%20Cruiser%20Prado%20TX" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2020 Toyota Land Cruiser Prado TX</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2020 Land Cruiser Prado TX</div>
+          <div class="car-price">USh 170m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">97,338 km</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202020%20Toyota%20Land%20Cruiser%20Prado%20TX%20at%20USh%20170m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202020%20Toyota%20Land%20Cruiser%20Prado%20TX" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 10 -->
+      <div class="car-card" data-type="suv" data-brand="landrover">
+        <div class="car-img-placeholder">2016 Range Rover Sport (Black)</div>
+        <div class="car-info">
+          <div class="car-make">Land Rover</div>
+          <div class="car-name">2016 Range Rover Sport</div>
+          <div class="car-price">USh 165.79m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Range%20Rover%20Sport%20at%20USh%20165.79m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Range%20Rover%20Sport" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 11 -->
+      <div class="car-card" data-type="suv" data-brand="landrover">
+        <div class="car-img-placeholder">2017 Land Rover Range Rover Sport</div>
+        <div class="car-info">
+          <div class="car-make">Land Rover</div>
+          <div class="car-name">2017 Range Rover Sport</div>
+          <div class="car-price">USh 165m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">66,430 km</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Range%20Rover%20Sport%20at%20USh%20165m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Range%20Rover%20Sport" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 12 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2021 Toyota Harrier</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2021 Toyota Harrier</div>
+          <div class="car-price">USh 165m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202021%20Toyota%20Harrier%20at%20USh%20165m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202021%20Toyota%20Harrier" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 13 -->
+      <div class="car-card" data-type="sedan" data-brand="mercedes">
+        <div class="car-img-placeholder">2017 Mercedes-Benz E300</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2017 Mercedes-Benz E300</div>
+          <div class="car-price">USh 165m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Mercedes-Benz%20E300%20at%20USh%20165m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Mercedes-Benz%20E300" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 14 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2021 Toyota Harrier 2021</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2021 Toyota Harrier</div>
+          <div class="car-price">USh 170m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">62,941 km</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202021%20Toyota%20Harrier%20at%20USh%20170m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202021%20Toyota%20Harrier%20170m" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 15 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2017 Mercedes-Benz GLE 350d</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2017 Mercedes-Benz GLE 350d</div>
+          <div class="car-price">USh 175m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Mercedes-Benz%20GLE%20350d%20at%20USh%20175m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Mercedes-Benz%20GLE%20350d%20175m" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 16 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2017 Toyota Land Cruiser Prado (Diesel)</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2017 Land Cruiser Prado</div>
+          <div class="car-price">USh 175m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Toyota%20Land%20Cruiser%20Prado%20at%20USh%20175m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Toyota%20Land%20Cruiser%20Prado%20175m" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 17 -->
+      <div class="car-card" data-type="suv" data-brand="other">
+        <div class="car-img-placeholder">2017 Jeep Wrangler</div>
+        <div class="car-info">
+          <div class="car-make">Jeep</div>
+          <div class="car-name">2017 Jeep Wrangler</div>
+          <div class="car-price">USh 175m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Jeep%20Wrangler%20at%20USh%20175m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Jeep%20Wrangler" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 18 -->
+      <div class="car-card" data-type="suv" data-brand="other">
+        <div class="car-img-placeholder">2012 Toyota Land Cruiser V8</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2012 Land Cruiser V8</div>
+          <div class="car-price">USh 178m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202012%20Toyota%20Land%20Cruiser%20V8%20at%20USh%20178m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202012%20Toyota%20Land%20Cruiser%20V8" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 19 -->
+      <div class="car-card" data-type="suv" data-brand="other">
+        <div class="car-img-placeholder">2013 Subaru Forester</div>
+        <div class="car-info">
+          <div class="car-make">Subaru</div>
+          <div class="car-name">2013 Subaru Forester</div>
+          <div class="car-price">USh 178.91m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202013%20Subaru%20Forester%20at%20USh%20178.91m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202013%20Subaru%20Forester" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 20 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2018 Mercedes-Benz GLE 350d Coupe</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2018 GLE 350d Coupe</div>
+          <div class="car-price">USh 185m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202018%20Mercedes-Benz%20GLE%20350d%20Coupe%20at%20USh%20185m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202018%20Mercedes-Benz%20GLE%20350d%20Coupe" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 21 -->
+      <div class="car-card" data-type="suv" data-brand="other">
+        <div class="car-img-placeholder">2018 Lexus RX450H</div>
+        <div class="car-info">
+          <div class="car-make">Lexus</div>
+          <div class="car-name">2018 Lexus RX450H</div>
+          <div class="car-price">USh 185m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Hybrid</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202018%20Lexus%20RX450H%20at%20USh%20185m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202018%20Lexus%20RX450H" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 22 -->
+      <div class="car-card" data-type="pickup" data-brand="toyota">
+        <div class="car-img-placeholder">2020 Toyota Hilux</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2020 Toyota Hilux</div>
+          <div class="car-price">USh 185m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202020%20Toyota%20Hilux%20at%20USh%20185m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202020%20Toyota%20Hilux" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 23 -->
+      <div class="car-card" data-type="other" data-brand="other">
+        <div class="car-img-placeholder">2016 Subaru WRX STI</div>
+        <div class="car-info">
+          <div class="car-make">Subaru</div>
+          <div class="car-name">2016 Subaru WRX STI</div>
+          <div class="car-price">USh 185m</div>
+          <div class="car-specs"><span class="spec-tag">Manual</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Subaru%20WRX%20STI%20at%20USh%20185m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Subaru%20WRX%20STI" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 24 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2022 Mercedes-Benz GLC 43 AMG</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2022 GLC 43 /// AMG</div>
+          <div class="car-price">USh 185m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202022%20Mercedes-Benz%20GLC%2043%20AMG%20at%20USh%20185m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202022%20Mercedes-Benz%20GLC%2043%20AMG" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 25 -->
+      <div class="car-card" data-type="suv" data-brand="landrover">
+        <div class="car-img-placeholder">2017 Land Rover Range Rover Sport</div>
+        <div class="car-info">
+          <div class="car-make">Land Rover</div>
+          <div class="car-name">2017 Range Rover Sport</div>
+          <div class="car-price">USh 195m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Range%20Rover%20Sport%20at%20USh%20195m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Range%20Rover%20Sport%20195m" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 26 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2018 Mercedes-Benz E300</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2018 Mercedes-Benz E300</div>
+          <div class="car-price">USh 190m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202018%20Mercedes-Benz%20E300%20at%20USh%20190m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202018%20Mercedes-Benz%20E300" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 27 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2017 Mercedes-Benz GLE 350d</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2017 Mercedes-Benz GLE 350d</div>
+          <div class="car-price">USh 160m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Mercedes-Benz%20GLE%20350d%20at%20USh%20160m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Mercedes-Benz%20GLE%20350d%20160m" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 28 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2017 Mercedes-Benz GLE 350d COUPE</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2017 GLE 350d Coupe</div>
+          <div class="car-price">USh 159m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Mercedes-Benz%20GLE%20350d%20Coupe%20at%20USh%20159m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Mercedes-Benz%20GLE%20350d%20Coupe" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 29 -->
+      <div class="car-card" data-type="suv" data-brand="other">
+        <div class="car-img-placeholder">2016 Audi Q7</div>
+        <div class="car-info">
+          <div class="car-make">Audi</div>
+          <div class="car-name">2016 Audi Q7</div>
+          <div class="car-price">USh 157m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Audi%20Q7%20at%20USh%20157m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Audi%20Q7" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 30 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2017 Mercedes-Benz GLC 250</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2017 Mercedes-Benz GLC 250</div>
+          <div class="car-price">USh 156m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Mercedes-Benz%20GLC%20250%20at%20USh%20156m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Mercedes-Benz%20GLC%20250" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 31 -->
+      <div class="car-card" data-type="suv" data-brand="landrover">
+        <div class="car-img-placeholder">2020 Range Rover Evoque</div>
+        <div class="car-info">
+          <div class="car-make">Land Rover</div>
+          <div class="car-name">2020 Range Rover Evoque</div>
+          <div class="car-price">USh 155m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202020%20Range%20Rover%20Evoque%20at%20USh%20155m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202020%20Range%20Rover%20Evoque" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 32 -->
+      <div class="car-card" data-type="pickup" data-brand="other">
+        <div class="car-img-placeholder">2022 Mitsubishi Triton</div>
+        <div class="car-info">
+          <div class="car-make">Mitsubishi</div>
+          <div class="car-name">2022 Mitsubishi Triton</div>
+          <div class="car-price">USh 155m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">14,511 km</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202022%20Mitsubishi%20Triton%20at%20USh%20155m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202022%20Mitsubishi%20Triton" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 33 -->
+      <div class="car-card" data-type="suv" data-brand="mercedes">
+        <div class="car-img-placeholder">2017 Mercedes-Benz GLE (81,460 km)</div>
+        <div class="car-info">
+          <div class="car-make">Mercedes-Benz</div>
+          <div class="car-name">2017 Mercedes-Benz GLE</div>
+          <div class="car-price">USh 150m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">81,460 km</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Mercedes-Benz%20GLE%20at%20USh%20150m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Mercedes-Benz%20GLE%20150m" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 34 -->
+      <div class="car-card" data-type="suv" data-brand="toyota">
+        <div class="car-img-placeholder">2020 Toyota Harrier</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2020 Toyota Harrier</div>
+          <div class="car-price">USh 150m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202020%20Toyota%20Harrier%20at%20USh%20150m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202020%20Toyota%20Harrier" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 35 -->
+      <div class="car-card" data-type="pickup" data-brand="toyota">
+        <div class="car-img-placeholder">2024 Toyota Hilux</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2024 Toyota Hilux</div>
+          <div class="car-price">USh 180m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">12,000 km</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202024%20Toyota%20Hilux%20at%20USh%20180m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202024%20Toyota%20Hilux" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 36 -->
+      <div class="car-card" data-type="pickup" data-brand="toyota">
+        <div class="car-img-placeholder">2019 Toyota Hilux Double Cabin</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2019 Toyota Hilux Double Cab</div>
+          <div class="car-price">USh 165m</div>
+          <div class="car-specs"><span class="spec-tag">Manual</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202019%20Toyota%20Hilux%20Double%20Cab%20at%20USh%20165m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202019%20Toyota%20Hilux%20Double%20Cab" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 37 -->
+      <div class="car-card" data-type="pickup" data-brand="toyota">
+        <div class="car-img-placeholder">2017 Toyota Hilux SR5</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2017 Toyota Hilux SR5</div>
+          <div class="car-price">USh 155.92m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202017%20Toyota%20Hilux%20SR5%20at%20USh%20155.92m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202017%20Toyota%20Hilux%20SR5" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 38 -->
+      <div class="car-card" data-type="suv" data-brand="other">
+        <div class="car-img-placeholder">2025 Chery Jetour T2</div>
+        <div class="car-info">
+          <div class="car-make">Chery</div>
+          <div class="car-name">2025 Chery Jetour T2</div>
+          <div class="car-price">USh 185m</div>
+          <div class="car-specs"><span class="spec-tag">Automatic</span><span class="spec-tag">Petrol</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202025%20Chery%20Jetour%20T2%20at%20USh%20185m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202025%20Chery%20Jetour%20T2" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 39 -->
+      <div class="car-card" data-type="suv" data-brand="other">
+        <div class="car-img-placeholder">2016 Jeep Wrangler</div>
+        <div class="car-info">
+          <div class="car-make">Jeep</div>
+          <div class="car-name">2016 Jeep Wrangler</div>
+          <div class="car-price">USh 165m</div>
+          <div class="car-specs"><span class="spec-tag">Manual</span><span class="spec-tag">76,250 km</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202016%20Jeep%20Wrangler%20at%20USh%20165m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202016%20Jeep%20Wrangler" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+      <!-- 40 -->
+      <div class="car-card" data-type="suv" data-brand="other">
+        <div class="car-img-placeholder">2012 Toyota Coaster (Bus)</div>
+        <div class="car-info">
+          <div class="car-make">Toyota</div>
+          <div class="car-name">2012 Toyota Coaster</div>
+          <div class="car-price">USh 187m</div>
+          <div class="car-specs"><span class="spec-tag">Manual</span><span class="spec-tag">Diesel</span><span class="spec-tag">Kampala</span></div>
+        </div>
+        <div class="card-actions">
+          <a href="tel:+256704113590" class="btn btn-navy btn-sm">📞 Call</a>
+          <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20interested%20in%20the%202012%20Toyota%20Coaster%20at%20USh%20187m." target="_blank" class="btn btn-wa btn-sm">💬 WhatsApp</a>
+          <a href="mailto:jbinvestment61@gmail.com?subject=Inquiry%3A%202012%20Toyota%20Coaster" class="btn btn-outline btn-sm">📧 Email</a>
+        </div>
+      </div>
+
+    </div><!-- /cars-grid -->
+
+    <div style="text-align:center;margin-top:50px;padding:30px;background:var(--light);border-radius:6px;border:1px solid var(--border);">
+      <p style="font-family:'Playfair Display',serif;font-size:20px;color:var(--navy);margin-bottom:8px;">Don't see what you're looking for?</p>
+      <p style="color:var(--gray);font-size:14px;margin-bottom:20px;">We have 353 vehicles in stock. Contact us directly — we'll find the right vehicle for you.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+        <a href="https://wa.me/256704113590?text=Hi%2C%20I%27m%20looking%20for%20a%20specific%20vehicle%20and%20can%27t%20find%20it%20on%20your%20website." target="_blank" class="btn btn-wa">💬 WhatsApp Us</a>
+        <a href="contact.html" class="btn btn-gold">Send an Inquiry</a>
+        <a href="tel:+256704113590" class="btn btn-navy">📞 Call Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- LOCATION STRIP -->
+<div class="location-strip">
+  <div class="container">
+    <h3>Visit Our Showroom</h3>
+    <div class="location-address">
+      <strong>Cadam Bond — Sephoc Motors Uganda</strong><br/>
+      Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala, Uganda
+    </div>
+    <div class="location-contacts">
+      <a href="tel:+256704113590" class="loc-contact">📞 +256 704 113 590</a>
+      <a href="tel:+256766617563" class="loc-contact">📞 +256 766 617 563</a>
+      <a href="https://wa.me/256704113590" target="_blank" class="loc-contact">💬 WhatsApp</a>
+      <a href="mailto:jbinvestment61@gmail.com" class="loc-contact">📧 jbinvestment61@gmail.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo-wrap">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="border-radius:4px;flex-shrink:0;">
+          <rect width="32" height="32" fill="#b8945a"/>
+          <text x="16" y="23" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="white">S</text>
+        </svg>
+        <div class="footer-logo-name">Sephoc <span>Motors</span> Uganda</div>
+      </div>
+      <p class="footer-desc">Cadam Bond, Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala. Cadam Enterprises Ltd.</p>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/SephocMotorsUganda" target="_blank" class="footer-social" title="Facebook">f</a>
+        <a href="https://www.instagram.com/sephocmotorsuganda" target="_blank" class="footer-social" title="Instagram">in</a>
+        <a href="https://wa.me/256704113590" target="_blank" class="footer-social" title="WhatsApp">wa</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Pages</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+256704113590">+256 704 113 590</a></li>
+        <li><a href="tel:+256766617563">+256 766 617 563</a></li>
+        <li><a href="mailto:jbinvestment61@gmail.com">jbinvestment61@gmail.com</a></li>
+        <li><a href="contact.html">Naguru, Kampala</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Sephoc Motors Uganda — Cadam Enterprises Ltd.</p>
+    <p>Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/256704113590?text=Hi%20Sephoc%20Motors%2C%20I%27m%20interested%20in%20a%20vehicle." target="_blank" class="wa-float" title="Chat on WhatsApp">💬</a>
+
+<script>
+function toggleMenu(){ document.getElementById('mobileMenu').classList.toggle('open'); }
+
+function filterCars(type, btn){
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.car-card').forEach(card => {
+    if(type === 'all'){ card.style.display = 'flex'; return; }
+    const ct = card.dataset.type;
+    const cb = card.dataset.brand;
+    const show = (ct === type || cb === type);
+    card.style.display = show ? 'flex' : 'none';
+  });
+}
+</script>
+</body>
+</html>

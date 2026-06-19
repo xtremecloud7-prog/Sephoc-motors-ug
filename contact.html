@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Contact Us | Sephoc Motors Uganda — Cadam Bond, Naguru Kampala</title>
+<meta name="description" content="Contact Sephoc Motors Uganda at Cadam Bond, Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala. Call +256704113590, WhatsApp or email jbinvestment61@gmail.com."/>
+<meta name="keywords" content="contact Sephoc Motors Uganda, Cadam Bond Kampala, car dealer Naguru, buy car Kampala Uganda, +256704113590"/>
+<meta name="robots" content="index,follow"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;border-radius:4px;">
+        <rect width="36" height="36" fill="#b8945a"/>
+        <text x="18" y="26" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="bold" fill="white">S</text>
+      </svg>
+      <span>Sephoc <span>Motors</span> Uganda</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="inventory.html">Inventory</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/256704113590?text=Hi%20Sephoc%20Motors%2C%20I%27m%20interested%20in%20a%20vehicle." target="_blank" class="nav-cta">WhatsApp Us</a>
+    <button class="nav-hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="inventory.html">Inventory</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://wa.me/256704113590?text=Hi%20Sephoc%20Motors%2C%20I%27m%20interested%20in%20a%20vehicle." target="_blank">WhatsApp Us</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <h1>Get in <span>Touch</span></h1>
+  <p>We're ready to help you find your next vehicle.</p>
+  <p style="margin-top:8px;font-size:13px;color:rgba(255,255,255,0.4);">Cadam Bond, Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala &nbsp;|&nbsp; +256 704 113 590</p>
+</div>
+
+<!-- CONTACT SECTION -->
+<section class="section" style="background:var(--white);">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- LEFT: FORM -->
+      <div>
+        <p style="font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:6px;">SEND AN INQUIRY</p>
+        <h2 class="section-title" style="margin-bottom:6px;">Vehicle <span>Inquiry Form</span></h2>
+        <div class="divider"></div>
+
+        <div class="contact-form-wrap">
+          <form id="inquiryForm" onsubmit="submitForm(event)">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name"/>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+256 700 000 000" required autocomplete="tel"/>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email"/>
+            </div>
+            <div class="form-group">
+              <label for="car">Vehicle of Interest</label>
+              <select id="car" name="car">
+                <option value="">-- Select a vehicle --</option>
+                <optgroup label="Land Rover / Range Rover">
+                  <option>2016 Range Rover Vogue — USh 168m</option>
+                  <option>2016 Range Rover Sport (Petrol) — USh 168m</option>
+                  <option>2016 Range Rover Sport (Diesel) — USh 168m</option>
+                  <option>2016 Range Rover Sport — USh 165.79m</option>
+                  <option>2017 Range Rover Sport — USh 165m</option>
+                  <option>2017 Range Rover Sport — USh 195m</option>
+                  <option>2020 Range Rover Evoque — USh 155m</option>
+                  <option>2020 Range Rover Evoque — USh 152m</option>
+                </optgroup>
+                <optgroup label="Toyota">
+                  <option>2009 Toyota Land Cruiser ZX V8 — USh 168m</option>
+                  <option>2012 Toyota Land Cruiser V8 — USh 178m</option>
+                  <option>2016 Toyota Land Cruiser Prado TX — USh 170m</option>
+                  <option>2016 Toyota Land Cruiser Prado — USh 165m</option>
+                  <option>2017 Toyota Land Cruiser Prado — USh 175m</option>
+                  <option>2017 Toyota Land Cruiser Prado — USh 168m</option>
+                  <option>2017 Toyota Land Cruiser Prado — USh 170m</option>
+                  <option>2018 Toyota Land Cruiser Prado TZG — USh 168m</option>
+                  <option>2018 Toyota Land Cruiser Prado — USh 190m</option>
+                  <option>2018 Toyota Land Cruiser Prado — USh 187m</option>
+                  <option>2018 Toyota Land Cruiser Prado — USh 185m</option>
+                  <option>2018 Toyota Land Cruiser Prado — USh 160m</option>
+                  <option>2020 Toyota Land Cruiser Prado TX — USh 170m</option>
+                  <option>2022 Toyota Land Cruiser Prado — USh 152m</option>
+                  <option>2017 Toyota Hilux SR5 — USh 155.92m</option>
+                  <option>2019 Toyota Hilux Double Cab — USh 165m</option>
+                  <option>2020 Toyota Hilux — USh 185m</option>
+                  <option>2024 Toyota Hilux — USh 180m</option>
+                  <option>2020 Toyota Harrier — USh 150m</option>
+                  <option>2021 Toyota Harrier — USh 165m</option>
+                  <option>2021 Toyota Harrier — USh 170m</option>
+                  <option>2012 Toyota Coaster — USh 187m</option>
+                  <option>2013 Subaru Forester — USh 178.91m</option>
+                </optgroup>
+                <optgroup label="Mercedes-Benz">
+                  <option>2016 Mercedes-Benz GLE AMG — USh 168m</option>
+                  <option>2017 Mercedes-Benz GLE 350d — USh 175m</option>
+                  <option>2017 Mercedes-Benz GLE 350d — USh 160m</option>
+                  <option>2017 Mercedes-Benz GLE — USh 150m</option>
+                  <option>2017 Mercedes-Benz GLE 350d Coupe — USh 159m</option>
+                  <option>2017 Mercedes-Benz GLC 250 — USh 156m</option>
+                  <option>2017 Mercedes-Benz GLC (AMG) — USh 185m</option>
+                  <option>2017 Mercedes-Benz E300 — USh 165m</option>
+                  <option>2018 Mercedes-Benz GLE 350d Coupe — USh 185m</option>
+                  <option>2018 Mercedes-Benz E300 — USh 190m</option>
+                  <option>2022 Mercedes-Benz GLC 43 AMG — USh 185m</option>
+                </optgroup>
+                <optgroup label="Other Brands">
+                  <option>2016 Audi Q7 — USh 157m</option>
+                  <option>2016 Jeep Wrangler — USh 165m</option>
+                  <option>2016 Subaru WRX STI — USh 185m</option>
+                  <option>2017 Jeep Wrangler — USh 175m</option>
+                  <option>2018 Lexus RX450H — USh 185m</option>
+                  <option>2022 Mitsubishi Triton — USh 155m</option>
+                  <option>2025 Chery Jetour T2 — USh 185m</option>
+                </optgroup>
+                <option value="other">Other / Not listed — I'll describe in message</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us what you're looking for, your budget, or any questions you have..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold" style="width:100%;font-size:15px;padding:15px;">Send Inquiry via WhatsApp</button>
+            <p style="text-align:center;font-size:12px;color:var(--gray);margin-top:10px;">Your inquiry will open WhatsApp with a pre-filled message to our team.</p>
+          </form>
+        </div>
+      </div>
+
+      <!-- RIGHT: CONTACT INFO -->
+      <div class="contact-info-col">
+        <p style="font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:6px;">REACH US DIRECTLY</p>
+        <h2 class="section-title" style="margin-bottom:6px;">Contact <span>Details</span></h2>
+        <div class="divider"></div>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-card-label">📞 Call Us</div>
+            <div class="contact-card-value">
+              <a href="tel:+256704113590">+256 704 113 590</a><br/>
+              <a href="tel:+256766617563" style="font-size:14px;color:var(--gray);">+256 766 617 563</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-label">💬 WhatsApp</div>
+            <div class="contact-card-value">
+              <a href="https://wa.me/256704113590?text=Hi%20Sephoc%20Motors%2C%20I%27m%20interested%20in%20a%20vehicle." target="_blank">+256 704 113 590</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-label">📧 Email</div>
+            <div class="contact-card-value">
+              <a href="mailto:jbinvestment61@gmail.com">jbinvestment61@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-label">📍 Showroom Address</div>
+            <div class="contact-card-value" style="font-size:14px;line-height:1.7;">
+              Cadam Bond<br/>
+              Plot 4A-6A, off Lugogo By-Pass<br/>
+              Naguru, Kampala, Uganda
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-label">🏢 Registered Company</div>
+            <div class="contact-card-value" style="font-size:14px;">Cadam Enterprises Ltd</div>
+          </div>
+        </div>
+
+        <!-- SOCIAL MEDIA -->
+        <div class="social-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/SephocMotorsUganda" target="_blank" class="social-link" title="Facebook on Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/sephocmotorsuganda" target="_blank" class="social-link" title="@sephocmotorsuganda on Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://wa.me/256704113590" target="_blank" class="social-link" title="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.555 4.122 1.529 5.857L.057 23.882l6.196-1.625A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 0 1-5.001-1.367l-.361-.214-3.68.965.981-3.593-.234-.369A9.821 9.821 0 0 1 2.182 12C2.182 6.57 6.569 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.431-4.388 9.818-9.818 9.818z"/></svg>
+            </a>
+            <a href="https://www.tiktok.com/@sephocmotorsuganda" target="_blank" class="social-link" title="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34l-.01-8.83a8.18 8.18 0 0 0 4.78 1.52V4.55a4.85 4.85 0 0 1-1-.14z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@sephocmotorsuganda" target="_blank" class="social-link" title="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- MAP -->
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7497!2d32.6200!3d0.3370!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc0e8abda80f%3A0x7d5b4f2b2b2b2b2b!2sLugogo%20Bypass%2C%20Kampala%2C%20Uganda!5e0!3m2!1sen!2sug!4v1700000000"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Cadam Bond — Sephoc Motors Uganda, Naguru off Lugogo By-Pass Kampala">
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWROOM FULL ADDRESS SECTION -->
+<section style="background:var(--light);padding:60px 20px;border-top:1px solid var(--border);">
+  <div class="container" style="text-align:center;">
+    <p style="font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">OUR SHOWROOM</p>
+    <h2 class="section-title" style="margin-bottom:12px;">Visit <span>Cadam Bond</span></h2>
+    <div class="divider" style="margin:14px auto 24px;"></div>
+    <p style="font-size:18px;font-weight:600;color:var(--navy);margin-bottom:6px;">Cadam Bond — Sephoc Motors Uganda</p>
+    <p style="font-size:15px;color:var(--gray);line-height:1.8;margin-bottom:6px;">Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala, Uganda</p>
+    <p style="font-size:14px;color:var(--gray);margin-bottom:28px;">Registered as: <strong style="color:var(--navy);">Cadam Enterprises Ltd</strong></p>
+    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+      <a href="tel:+256704113590" class="btn btn-navy">📞 +256 704 113 590</a>
+      <a href="https://wa.me/256704113590?text=Hi%20Sephoc%20Motors%2C%20I%27m%20interested%20in%20a%20vehicle." target="_blank" class="btn btn-wa">💬 WhatsApp Us</a>
+      <a href="mailto:jbinvestment61@gmail.com" class="btn btn-outline">📧 Send Email</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo-wrap">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="border-radius:4px;flex-shrink:0;">
+          <rect width="32" height="32" fill="#b8945a"/>
+          <text x="16" y="23" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="white">S</text>
+        </svg>
+        <div class="footer-logo-name">Sephoc <span>Motors</span> Uganda</div>
+      </div>
+      <p class="footer-desc">Cadam Bond, Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala. Cadam Enterprises Ltd.</p>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/SephocMotorsUganda" target="_blank" class="footer-social" title="Facebook">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/sephocmotorsuganda" target="_blank" class="footer-social" title="Instagram">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@sephocmotorsuganda" target="_blank" class="footer-social" title="TikTok">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34l-.01-8.83a8.18 8.18 0 0 0 4.78 1.52V4.55a4.85 4.85 0 0 1-1-.14z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@sephocmotorsuganda" target="_blank" class="footer-social" title="YouTube">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
+        </a>
+        <a href="https://wa.me/256704113590" target="_blank" class="footer-social" title="WhatsApp">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.555 4.122 1.529 5.857L.057 23.882l6.196-1.625A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 0 1-5.001-1.367l-.361-.214-3.68.965.981-3.593-.234-.369A9.821 9.821 0 0 1 2.182 12C2.182 6.57 6.569 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.431-4.388 9.818-9.818 9.818z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Pages</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+256704113590">+256 704 113 590</a></li>
+        <li><a href="tel:+256766617563">+256 766 617 563</a></li>
+        <li><a href="mailto:jbinvestment61@gmail.com">jbinvestment61@gmail.com</a></li>
+        <li><a href="contact.html">Naguru, Kampala</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Sephoc Motors Uganda — Cadam Enterprises Ltd. All rights reserved.</p>
+    <p>Plot 4A-6A, off Lugogo By-Pass, Naguru, Kampala</p>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/256704113590?text=Hi%20Sephoc%20Motors%2C%20I%27m%20interested%20in%20a%20vehicle." target="_blank" class="wa-float" title="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.555 4.122 1.529 5.857L.057 23.882l6.196-1.625A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 0 1-5.001-1.367l-.361-.214-3.68.965.981-3.593-.234-.369A9.821 9.821 0 0 1 2.182 12C2.182 6.57 6.569 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.431-4.388 9.818-9.818 9.818z"/></svg>
+</a>
+
+<script>
+function toggleMenu(){ document.getElementById('mobileMenu').classList.toggle('open'); }
+
+function submitForm(e){
+  e.preventDefault();
+  const name    = document.getElementById('name').value.trim();
+  const phone   = document.getElementById('phone').value.trim();
+  const email   = document.getElementById('email').value.trim();
+  const car     = document.getElementById('car').value;
+  const message = document.getElementById('message').value.trim();
+
+  if(!name || !phone){ alert('Please fill in your name and phone number.'); return; }
+
+  const text =
+    'Hello Sephoc Motors Uganda!\n\n' +
+    '📋 VEHICLE INQUIRY\n\n' +
+    '👤 Name: ' + name + '\n' +
+    '📞 Phone: ' + phone + '\n' +
+    (email ? '📧 Email: ' + email + '\n' : '') +
+    (car   ? '🚗 Vehicle: ' + car + '\n' : '') +
+    (message ? '\n💬 Message:\n' + message : '') +
+    '\n\nPlease get back to me at your earliest convenience. Thank you!';
+
+  window.open('https://wa.me/256704113590?text=' + encodeURIComponent(text), '_blank');
+}
+</script>
+</body>
+</html>
